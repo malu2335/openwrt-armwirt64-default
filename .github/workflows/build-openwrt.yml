@@ -115,7 +115,7 @@ jobs:
       with:
           openwrt_path: openwrt/bin/targets/*/*/*rootfs.tar.gz
           openwrt_soc: s905d
-          openwrt_kernel: 5.4.189
+          openwrt_kernel: 5.4.188
 
     - name: Upload bin directory
       uses: actions/upload-artifact@main
